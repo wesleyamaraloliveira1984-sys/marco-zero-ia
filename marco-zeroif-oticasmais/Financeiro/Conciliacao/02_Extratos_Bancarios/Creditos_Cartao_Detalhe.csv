@@ -1,0 +1,95 @@
+﻿data,mes,banco,conta,estabelecimento,cnpj,tipo,bandeira_codigo,modalidade_codigo,valor,arquivo
+02/04/2026,2026-04,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CD,MC,CD,690.62,CEF abril matriz.pdf
+09/04/2026,2026-04,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CC,MC,CC,191.46,CEF abril matriz.pdf
+13/04/2026,2026-04,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CD,MC,CD,0.05,CEF abril matriz.pdf
+22/04/2026,2026-04,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CD,MC,CD,49.33,CEF abril matriz.pdf
+24/02/2026,2026-02,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CD,MC,CD,47.33,CEF fevereiro matriz.pdf
+02/01/2026,2026-01,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CC,MC,CC,93.76,CEF janeiro matriz.pdf
+05/01/2026,2026-01,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CC,MC,CC,214.94,CEF janeiro matriz.pdf
+13/01/2026,2026-01,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CD,MC,CD,21.99,CEF janeiro matriz.pdf
+20/01/2026,2026-01,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CD,MC,CD,98.66,CEF janeiro matriz.pdf
+02/05/2025,2025-05,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CC,MC,CC,850.94,CEF maio matriz.pdf
+20/05/2025,2025-05,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CD,MC,CD,98.66,CEF maio matriz.pdf
+23/05/2025,2025-05,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CD,MC,CD,986.6,CEF maio matriz.pdf
+02/06/2025,2025-06,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CD,MC,CD,118.39,CEF maio matriz.pdf
+09/03/2026,2026-03,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CC,MC,CC,150.27,CEF março matriz.pdf
+09/03/2026,2026-03,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CD,MC,CD,6.0,CEF março matriz.pdf
+24/03/2026,2026-03,CEF,CEF Matriz,Matriz_Luminis,07843328000119,GETN_MC_CD,MC,CD,493.3,CEF março matriz.pdf
+01/04/2026,2026-04,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CD,MC,CD,14.8,CEF abril filial.pdf
+06/04/2026,2026-04,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,835.43,CEF abril filial.pdf
+09/04/2026,2026-04,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,120.49,CEF abril filial.pdf
+24/04/2026,2026-04,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CD,MC,CD,2540.52,CEF abril filial.pdf
+02/02/2026,2026-02,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CD,MC,CD,1194.27,CEF fevereiro filial.pdf
+04/02/2026,2026-02,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CD,MC,CD,6276.62,CEF fevereiro filial.pdf
+02/01/2026,2026-01,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,738.16,CEF janeiro filial.pdf
+22/01/2026,2026-01,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CD,MC,CD,2852.43,CEF janeiro filial.pdf
+26/01/2026,2026-01,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CD,MC,CD,611.94,CEF janeiro filial.pdf
+02/02/2026,2026-02,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CD,MC,CD,1194.27,CEF janeiro filial.pdf
+01/06/2026,2026-06,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,1851.74,CEF junho filial.pdf
+06/05/2026,2026-05,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,321.3,CEF maio filial.pdf
+07/05/2026,2026-05,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,427.24,CEF maio filial.pdf
+07/05/2026,2026-05,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CD,MC,CD,197.4,CEF maio filial.pdf
+08/05/2026,2026-05,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,355.32,CEF maio filial.pdf
+11/05/2026,2026-05,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,267.08,CEF maio filial.pdf
+11/05/2026,2026-05,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CD,MC,CD,3548.26,CEF maio filial.pdf
+18/05/2026,2026-05,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,1966.03,CEF maio filial.pdf
+20/05/2026,2026-05,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CD,MC,CD,197.4,CEF maio filial.pdf
+22/05/2026,2026-05,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,243.36,CEF maio filial.pdf
+25/05/2026,2026-05,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,337.55,CEF maio filial.pdf
+29/05/2026,2026-05,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,194.76,CEF maio filial.pdf
+05/03/2026,2026-03,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CC,MC,CC,204.48,CEF março filial.pdf
+24/03/2026,2026-03,CEF,CEF Filial,Filial_Proview,07843328000208,GETN_MC_CD,MC,CD,987.0,CEF março filial.pdf
+06/03/2026,2026-03,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Antecipacao_Getnet,ANT,,1686.08,extrato santander março matriz.pdf
+06/03/2026,2026-03,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Antecipacao_Getnet,ANT,,2200.21,extrato santander março matriz.pdf
+06/03/2026,2026-03,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Antecipacao_Getnet,ANT,,22432.51,extrato santander março matriz.pdf
+24/03/2026,2026-03,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Debito,VISA ELECTR,DC,1529.38,extrato santander março matriz.pdf
+17/03/2026,2026-03,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Debito,VISA ELECTR,DC,296.01,extrato santander março matriz.pdf
+03/03/2026,2026-03,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Debito,VISA ELECTR,DC,2861.43,extrato santander março matriz.pdf
+05/03/2026,2026-03,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Credito,VISA,CC,215.01,extrato santander março matriz.pdf
+06/04/2026,2026-04,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Antecipacao_Getnet,ANT,,2759.14,extrato-abril matriz.pdf
+06/04/2026,2026-04,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Antecipacao_Getnet,ANT,,16393.84,extrato-abril matriz.pdf
+02/02/2026,2026-02,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Antecipacao_Getnet,ANT,,3036.58,fevereiro mstriz.pdf
+02/02/2026,2026-02,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Antecipacao_Getnet,ANT,,10414.89,fevereiro mstriz.pdf
+27/02/2026,2026-02,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Debito,VISA ELECTR,DC,177.61,fevereiro mstriz.pdf
+04/02/2026,2026-02,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Debito,VISA ELECTR,DC,465.33,fevereiro mstriz.pdf
+04/02/2026,2026-02,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Credito,ELO,CC,96.94,fevereiro mstriz.pdf
+03/02/2026,2026-02,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Credito,ELO,CC,87.48,fevereiro mstriz.pdf
+02/02/2026,2026-02,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Credito,ELO,CC,96.94,fevereiro mstriz.pdf
+02/02/2026,2026-02,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Antecipacao_Getnet,ANT,,3036.58,santander matriz jan.pdf
+02/02/2026,2026-02,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Antecipacao_Getnet,ANT,,10414.89,santander matriz jan.pdf
+02/01/2026,2026-01,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Antecipacao_Getnet,ANT,,11565.79,santander matriz jan.pdf
+20/01/2026,2026-01,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Debito,ELO DEBITO,DC,687.4,santander matriz jan.pdf
+20/01/2026,2026-01,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Debito,VISA ELECTR,DC,493.35,santander matriz jan.pdf
+02/02/2026,2026-02,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Credito,ELO,CC,96.94,santander matriz jan.pdf
+19/01/2026,2026-01,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Credito,ELO,CC,213.84,santander matriz jan.pdf
+05/01/2026,2026-01,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Credito,ELO,CC,184.42,santander matriz jan.pdf
+05/01/2026,2026-01,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Credito,VISA,CC,565.08,santander matriz jan.pdf
+02/01/2026,2026-01,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Credito,ELO,CC,96.94,santander matriz jan.pdf
+02/01/2026,2026-01,Santander,Santander Matriz,Matriz_Luminis,07843328000119,Pagamento_Cartao_Credito,VISA,CC,2543.81,santander matriz jan.pdf
+06/04/2026,2026-04,Santander,Santander Filial,Filial_Proview,07843328000208,Antecipacao_Getnet,ANT,,42475.26,extrato abril santanderfilial.pdf
+06/04/2026,2026-04,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,2049.94,EXTRATO ABRIL.pdf
+06/04/2026,2026-04,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,79329.66,EXTRATO ABRIL.pdf
+29/05/2026,2026-05,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,24355.96,EXTRATO MAIO.pdf
+29/05/2026,2026-05,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,25587.14,EXTRATO MAIO.pdf
+07/05/2026,2026-05,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,60056.35,EXTRATO MAIO.pdf
+07/05/2026,2026-05,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,40343.5,EXTRATO MAIO.pdf
+02/02/2026,2026-02,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,3498.4,extrato BH jan-fev.pdf
+02/02/2026,2026-02,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,35488.45,extrato BH jan-fev.pdf
+02/02/2026,2026-02,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,4833.16,extrato BH jan-fev.pdf
+02/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,9042.72,extrato BH jan-fev.pdf
+02/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,22514.99,extrato BH jan-fev.pdf
+02/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,21764.59,extrato BH jan-fev.pdf
+29/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Pagamento_Cartao_Debito,DEB,DC,632.0,extrato BH jan-fev.pdf
+29/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Pagamento_Cartao_Debito,DEB,DC,98.7,extrato BH jan-fev.pdf
+27/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Pagamento_Cartao_Debito,DEB,DC,987.5,extrato BH jan-fev.pdf
+26/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Pagamento_Cartao_Debito,DEB,DC,3160.0,extrato BH jan-fev.pdf
+23/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Pagamento_Cartao_Debito,DEB,DC,1481.25,extrato BH jan-fev.pdf
+15/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Pagamento_Cartao_Debito,DEB,DC,1422.0,extrato BH jan-fev.pdf
+14/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Pagamento_Cartao_Debito,DEB,DC,493.75,extrato BH jan-fev.pdf
+13/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Pagamento_Cartao_Debito,DEB,DC,296.1,extrato BH jan-fev.pdf
+12/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Pagamento_Cartao_Debito,DEB,DC,113.56,extrato BH jan-fev.pdf
+09/01/2026,2026-01,Santander,BH,Oticas_BH,18960845000194,Pagamento_Cartao_Debito,DEB,DC,986.0,extrato BH jan-fev.pdf
+03/03/2026,2026-03,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,2139.31,extrato oticas BH março.pdf
+03/03/2026,2026-03,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,42385.33,extrato oticas BH março.pdf
+03/03/2026,2026-03,Santander,BH,Oticas_BH,18960845000194,Antecipacao_Getnet,ANT,,60474.84,extrato oticas BH março.pdf
+04/03/2026,2026-03,Santander,BH,Oticas_BH,18960845000194,Pagamento_Cartao_Debito,DEB,DC,977.13,extrato oticas BH março.pdf

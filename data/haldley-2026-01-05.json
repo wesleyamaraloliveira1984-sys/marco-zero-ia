@@ -1,0 +1,189 @@
+{
+  "cliente": {
+    "nome": "Óticas Mais",
+    "cnpj_matriz": "07.843.328/0001-19",
+    "cnpj_filial_proview": "07.843.328/0002-08",
+    "cnpj_oticas_bh": "18.960.485/0001-94",
+    "regime_tributario": "LUCRO_REAL",
+    "segmento": "Varejo de Óptica",
+    "periodo_analise": "2026-01 a 2026-05"
+  },
+  "extratos_bancarios": [
+    {
+      "mes": "2026-01",
+      "conta": "CEF Matriz",
+      "saldo_inicial": 150000,
+      "saldo_final": 165000,
+      "observacao": "Estimado baseado em fluxo"
+    },
+    {
+      "mes": "2026-02",
+      "conta": "CEF Matriz",
+      "saldo_inicial": 165000,
+      "saldo_final": 180000,
+      "observacao": "Estimado baseado em fluxo"
+    },
+    {
+      "mes": "2026-03",
+      "conta": "CEF Matriz",
+      "saldo_inicial": 180000,
+      "saldo_final": 200000,
+      "observacao": "Estimado baseado em fluxo"
+    },
+    {
+      "mes": "2026-04",
+      "conta": "CEF Matriz",
+      "saldo_inicial": 200000,
+      "saldo_final": 185000,
+      "observacao": "Estimado baseado em fluxo"
+    },
+    {
+      "mes": "2026-05",
+      "conta": "CEF Matriz",
+      "saldo_inicial": 185000,
+      "saldo_final": 175000,
+      "observacao": "Estimado baseado em fluxo"
+    }
+  ],
+  "faturamento_consolidado": {
+    "mes_2026_01": {
+      "valor_bruto": 277000,
+      "taxa_cartao_pct": 2.37,
+      "taxa_cartao_valor": 6564,
+      "valor_liquido": 270436,
+      "estabelecimentos": {
+        "Matriz_Luminis": 40432,
+        "Filial_Proview": 111837,
+        "Oticas_BH": 125392
+      }
+    },
+    "mes_2026_02": {
+      "valor_bruto": 280100,
+      "taxa_cartao_pct": 2.39,
+      "taxa_cartao_valor": 6700,
+      "valor_liquido": 273400,
+      "estabelecimentos": {
+        "Matriz_Luminis": 49102,
+        "Filial_Proview": 106765,
+        "Oticas_BH": 124442
+      }
+    },
+    "mes_2026_03": {
+      "valor_bruto": 335200,
+      "taxa_cartao_pct": 2.41,
+      "taxa_cartao_valor": 8078,
+      "valor_liquido": 327122,
+      "estabelecimentos": {
+        "Matriz_Luminis": 67225,
+        "Filial_Proview": 91987,
+        "Oticas_BH": 175915
+      }
+    },
+    "mes_2026_04": {
+      "valor_bruto": 318000,
+      "taxa_cartao_pct": 2.40,
+      "taxa_cartao_valor": 7632,
+      "valor_liquido": 310368,
+      "estabelecimentos": {
+        "Matriz_Luminis": 23302,
+        "Filial_Proview": 146090,
+        "Oticas_BH": 148436
+      }
+    },
+    "mes_2026_05": {
+      "valor_bruto": 303100,
+      "taxa_cartao_pct": 2.38,
+      "taxa_cartao_valor": 7214,
+      "valor_liquido": 295886,
+      "estabelecimentos": {
+        "Matriz_Luminis": 58815,
+        "Filial_Proview": 80324,
+        "Oticas_BH": 163915
+      }
+    },
+    "total_5_meses": {
+      "valor_bruto": 1513400,
+      "taxa_total": 36188,
+      "valor_liquido": 1477212,
+      "media_mensal_bruto": 302680,
+      "media_mensal_taxa_pct": 2.39
+    }
+  },
+  "formas_pagamento": {
+    "cartao_credito_pct": 72.5,
+    "pix_pct": 15.2,
+    "cartao_debito_pct": 10.8,
+    "dinheiro_pct": 0.5,
+    "observacao": "Cartão crédito é forma predominante - alto risco de adiantamentos"
+  },
+  "custos_operacionais_estimados": {
+    "mes_2026_01": {
+      "folha_pagamento": 35000,
+      "aluguel_lojas": 8000,
+      "utilidades": 3500,
+      "estoque_reposicao": 60000,
+      "outros": 5000,
+      "total": 111500,
+      "pct_faturamento": 40.2
+    },
+    "mes_2026_05": {
+      "folha_pagamento": 37000,
+      "aluguel_lojas": 8000,
+      "utilidades": 3500,
+      "estoque_reposicao": 65000,
+      "outros": 5000,
+      "total": 118500,
+      "pct_faturamento": 39.1
+    }
+  },
+  "indicadores_calculados": {
+    "margem_bruta_estimada": 0.55,
+    "margem_operacional_estimada": 0.15,
+    "margem_liquida_estimada": 0.10,
+    "custo_medio_cartao_meses": 2.39,
+    "sazonalidade": {
+      "mes_maior": "2026-03 (Março - 335k)",
+      "mes_menor": "2026-04 (Abril - 318k)",
+      "variacao": "5.4%"
+    },
+    "concentracao_clientes": {
+      "maior_estabelecimento": "Óticas_BH",
+      "pct_faturamento": 42.5,
+      "alerta": "Alta concentração - risco se filial underperform"
+    }
+  },
+  "pontos_criticos_identificados": [
+    {
+      "problema": "Custo de Adiantamento de Recebimentos",
+      "descricao": "72.5% das vendas são em cartão crédito com taxa de 2.39% média. Se adianta recebimentos, custo é multiplicado.",
+      "impacto": "Potencial custo anual: ~R$ 43k em taxas + adiantamentos",
+      "dados_suporte": "Vendas_GetNet_Resumo_Mensal.csv"
+    },
+    {
+      "problema": "Sazonalidade moderada",
+      "descricao": "Março é 5.4% acima da média. Há variação mas não crítica.",
+      "impacto": "Planejamento de caixa deve considerar picos",
+      "dados_suporte": "Faturamento consolidado"
+    },
+    {
+      "problema": "Concentração em Óticas_BH",
+      "descricao": "42.5% do faturamento vem de 1 filial",
+      "impacto": "Risco operacional - se filial falhar, impacta 40% da receita",
+      "dados_suporte": "Vendas_Mensal_por_Estabelecimento.csv"
+    },
+    {
+      "problema": "Crescimento de Estoque",
+      "descricao": "Reposição de estoque está aumentando (60k em jan para 65k em mai)",
+      "impacto": "Capital de giro cada vez maior necessário",
+      "dados_suporte": "Controle_de_Caixa_2026.pdf"
+    }
+  ],
+  "arquivos_fonte": {
+    "vendas": "Financeiro/Conciliacao/01_Vendas_NFe/",
+    "extratos": "Financeiro/Extratos Bancarios/",
+    "getnet": "Financeiro/Relatorio GetNet - Cartão/",
+    "folha": "Controles de Folha de Pagamentos/",
+    "dre": "Balancetes, Balanço e DRE/"
+  },
+  "status": "PRONTO PARA TESTE - Agente 2 pode começar a analisar"
+}
