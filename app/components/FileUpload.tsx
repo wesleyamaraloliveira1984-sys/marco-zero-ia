@@ -28,20 +28,47 @@ export default function FileUpload() {
     setFiles(prev => [...prev, ...selectedFiles])
   }
 
+  const dropZoneStyle: React.CSSProperties = {
+    border: `2px dashed ${isDragging ? '#2563eb' : '#d1d5db'}`,
+    backgroundColor: isDragging ? '#eff6ff' : '#f9fafb',
+    padding: '32px',
+    borderRadius: '8px',
+    textAlign: 'center',
+    cursor: 'pointer',
+    transition: 'all 0.2s ease',
+  }
+
+  const buttonStyle: React.CSSProperties = {
+    backgroundColor: '#2563eb',
+    color: 'white',
+    padding: '8px 24px',
+    borderRadius: '4px',
+    cursor: 'pointer',
+    border: 'none',
+    fontSize: '16px',
+    fontWeight: '500',
+  }
+
+  const buttonHoverStyle: React.CSSProperties = {
+    ...buttonStyle,
+    backgroundColor: '#1d4ed8',
+  }
+
   return (
-    <div className="space-y-6">
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
       <div
         onDrop={handleDrop}
         onDragOver={handleDragOver}
         onDragLeave={handleDragLeave}
-        className={`border-2 border-dashed p-8 rounded-lg text-center transition ${
-          isDragging
-            ? 'border-blue-600 bg-blue-50'
-            : 'border-gray-300 bg-gray-50 hover:border-blue-400'
-        }`}
+        style={dropZoneStyle}
       >
         <svg
-          className="mx-auto h-12 w-12 text-gray-400 mb-4"
+          style={{
+            margin: '0 auto 16px',
+            width: '48px',
+            height: '48px',
+            color: '#9ca3af',
+          }}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -53,39 +80,87 @@ export default function FileUpload() {
             d="M12 4v16m8-8H4"
           />
         </svg>
-        <p className="text-lg font-semibold text-gray-700 mb-2">
+        <p
+          style={{
+            fontSize: '18px',
+            fontWeight: 600,
+            color: '#374151',
+            marginBottom: '8px',
+          }}
+        >
           Arraste ou clique para enviar documentos financeiros
         </p>
-        <p className="text-sm text-gray-500 mb-4">
+        <p
+          style={{
+            fontSize: '14px',
+            color: '#6b7280',
+            marginBottom: '16px',
+          }}
+        >
           Formatos aceitos: CSV, XLSX, PDF
         </p>
-        <label className="inline-block">
-          <span className="bg-blue-600 text-white px-6 py-2 rounded cursor-pointer hover:bg-blue-700">
+        <label style={{ display: 'inline-block' }}>
+          <button
+            style={buttonStyle}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = '#1d4ed8'
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = '#2563eb'
+            }}
+            onClick={(e) => {
+              e.preventDefault()
+              ;(e.currentTarget.nextElementSibling as HTMLInputElement)?.click()
+            }}
+          >
             Selecionar Arquivos
-          </span>
+          </button>
           <input
             type="file"
             multiple
             accept=".csv,.xlsx,.pdf"
             onChange={handleFileInputChange}
-            className="hidden"
+            style={{ display: 'none' }}
           />
         </label>
       </div>
 
       {files.length > 0 && (
-        <div className="bg-white rounded-lg shadow p-6">
-          <h3 className="text-lg font-semibold text-gray-900 mb-4">
+        <div
+          style={{
+            backgroundColor: 'white',
+            borderRadius: '8px',
+            boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
+            padding: '24px',
+          }}
+        >
+          <h3
+            style={{
+              fontSize: '18px',
+              fontWeight: 600,
+              color: '#111827',
+              marginBottom: '16px',
+            }}
+          >
             Arquivos Selecionados ({files.length})
           </h3>
-          <ul className="space-y-2">
+          <ul style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
             {files.map((file, idx) => (
               <li
                 key={idx}
-                className="flex items-center justify-between p-3 bg-gray-50 rounded"
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  alignItems: 'center',
+                  padding: '12px',
+                  backgroundColor: '#f9fafb',
+                  borderRadius: '4px',
+                }}
               >
-                <span className="text-sm text-gray-700">{file.name}</span>
-                <span className="text-xs text-gray-500">
+                <span style={{ fontSize: '14px', color: '#374151' }}>
+                  {file.name}
+                </span>
+                <span style={{ fontSize: '12px', color: '#6b7280' }}>
                   {(file.size / 1024).toFixed(2)} KB
                 </span>
               </li>
