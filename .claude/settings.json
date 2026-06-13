@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Agent",
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "PowerShell"
+    ],
+    "defaultMode": "dontAsk"
+  }
+}
