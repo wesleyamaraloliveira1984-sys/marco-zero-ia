@@ -8,6 +8,8 @@ import { useState } from 'react'
 export default function UploadPage() {
   const [files, setFiles] = useState<File[]>([])
   const [isDragging, setIsDragging] = useState(false)
+  const [isUploading, setIsUploading] = useState(false)
+  const [uploadMessage, setUploadMessage] = useState('')
 
   const handleDrop = (e: React.DragEvent) => {
     e.preventDefault()
@@ -28,6 +30,37 @@ export default function UploadPage() {
   const handleFileInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFiles = Array.from(e.currentTarget.files || [])
     setFiles(prev => [...prev, ...selectedFiles])
+  }
+
+  const handleUpload = async () => {
+    if (files.length === 0) return
+
+    setIsUploading(true)
+    setUploadMessage('Enviando arquivos...')
+
+    try {
+      const formData = new FormData()
+      files.forEach(file => {
+        formData.append('files', file)
+      })
+
+      const response = await fetch('/api/upload', {
+        method: 'POST',
+        body: formData,
+      })
+
+      if (response.ok) {
+        setUploadMessage('✓ Arquivos enviados com sucesso!')
+        setFiles([])
+        setTimeout(() => setUploadMessage(''), 3000)
+      } else {
+        setUploadMessage('✗ Erro ao enviar arquivos. Tente novamente.')
+      }
+    } catch (error) {
+      setUploadMessage('✗ Erro na conexão. Tente novamente.')
+    } finally {
+      setIsUploading(false)
+    }
   }
 
   return (
@@ -97,6 +130,50 @@ export default function UploadPage() {
                 </li>
               ))}
             </ul>
+            <div style={{ marginTop: '16px', display: 'flex', gap: '12px' }}>
+              <button
+                onClick={handleUpload}
+                disabled={isUploading}
+                style={{
+                  padding: '12px 32px',
+                  backgroundColor: isUploading ? '#9ca3af' : '#16a34a',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '4px',
+                  cursor: isUploading ? 'not-allowed' : 'pointer',
+                  fontSize: '16px',
+                  fontWeight: 'bold',
+                }}
+              >
+                {isUploading ? 'Enviando...' : 'Enviar Arquivos'}
+              </button>
+              <button
+                onClick={() => setFiles([])}
+                disabled={isUploading}
+                style={{
+                  padding: '12px 32px',
+                  backgroundColor: '#ef4444',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '4px',
+                  cursor: isUploading ? 'not-allowed' : 'pointer',
+                  fontSize: '16px',
+                }}
+              >
+                Limpar
+              </button>
+            </div>
+            {uploadMessage && (
+              <div style={{
+                marginTop: '16px',
+                padding: '12px',
+                borderRadius: '4px',
+                backgroundColor: uploadMessage.startsWith('✓') ? '#d1fae5' : '#fee2e2',
+                color: uploadMessage.startsWith('✓') ? '#065f46' : '#991b1b',
+              }}>
+                {uploadMessage}
+              </div>
+            )}
           </div>
         )}
       </div>
