@@ -1,3 +1,4 @@
+// Force dynamic rendering to prevent static caching
 export const dynamic = 'force-dynamic'
 
 'use client'
